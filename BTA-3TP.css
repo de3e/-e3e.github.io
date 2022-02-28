@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0;
+	padding: 0;
+}
+body{
+	background-color:rgba(255,247,196,1.00);
+}
+.header img{
+	width: 10%;
+}
+.header ul li{
+	display: inline;
+	padding: 0 10px;
+	font-size: 15px;
+	font-family: roboto;
+}
+input{
+	border-radius: 20px;
+	border: none;
+	background-color: #FFC601;
+	padding: 10px;
+	font-size: 15px;
+	font-family: roboto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+	background-color: rgba(255,255,255,0.70);
+}
+.mot{
+	background-image: url("271444954_473462090983836_7528485566105449309_n.png");
+	height: 100vh;
+	background-size: cover;
+}
+.ngoaihai{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hai{
+	display: grid;
+	grid-template-columns: repeat(5,auto);
+	grid-column-gap: 20px;
+	padding: 30px;
+	width: 70%;
+}
+.chu h1{
+	font-size: 40px;
+	font-family: roboto;
+	color: rgba(255,224,65,1.00);
+}
+.chu h3{
+	font-size: 20px;
+	font-family: roboto;
+	font-weight: 500;
+	padding: 50px 0;
+}
+.hinh{
+	text-align: center;
+	background-color:rgba(255,255,255,1.00);
+	border-radius: 15px;
+}
+.hinh img{
+	width: 50%;
+	padding: 40px 0;
+}
+.hinh h4{
+	font-size: 15px;
+	font-family: roboto;
+	font-weight: 500;
+	padding: 15px 0;
+}
